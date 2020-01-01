@@ -1,0 +1,13 @@
+DataDirectory /var/lib/tor
+PidFile /var/lib/tor/pid
+RunAsDaemon 0
+User tor
+
+ControlPort 9051
+SocksPort 9050
+
+CookieAuthentication 1
+CookieAuthFileGroupReadable 1
+CookieAuthFile /var/lib/tor/control.authcookie
+
+Log notice stdout
