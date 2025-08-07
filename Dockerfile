@@ -1,10 +1,10 @@
 FROM alpine:3.22
 
 LABEL maintainer "zyclonite"
-LABEL version "0.4.8.16"
+LABEL version "0.4.8.17"
 LABEL description "Tor as Docker Image"
 
-ARG version="0.4.8.16-r0"
+ARG version="0.4.8.17-r0"
 
 RUN apk add --no-cache --purge --clean-protected -u ca-certificates tor=$version \
  && chmod -R 700 /var/lib/tor \
