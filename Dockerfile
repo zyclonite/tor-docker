@@ -1,4 +1,4 @@
-FROM alpine:3.23
+FROM alpine:3.24
 
 LABEL maintainer "zyclonite"
 LABEL version "0.4.9.9"
